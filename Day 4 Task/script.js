@@ -3,13 +3,13 @@
 		b=20;
 		c=30;
 		if(a>b && a>c){
-		console.log("A is greater number");
+		document.write("A is greater number");
 		}
 		else if(b>a && b>c){
-		console.log("B is greater number");
+		document.write("B is greater number");
 		}
 		else{
-		console.log("C is greater number");
+		document.write("C is greater number");
 		}	
 		}
 		greater();
