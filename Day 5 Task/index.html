@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Number Program</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 50px;
+        }
+
+        input {
+            padding: 10px;
+            margin: 5px;
+            width: 180px;
+        }
+
+        button {
+            padding: 10px 15px;
+            margin: 5px;
+            cursor: pointer;
+        }
+
+        #output {
+            margin: 20px auto;
+            padding: 20px;
+            width: 300px;
+            min-height: 100px;
+            border: 1px solid black;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Number Programs</h1>
+
+    <input type="number" id="start" placeholder="Enter start number">
+
+    <input type="number" id="end" placeholder="Enter end number">
+
+    <br><br>
+
+    <button onclick="printEven()">Print Even</button>
+
+    <button onclick="printOdd()">Print Odd</button>
+
+    <button onclick="printAscending()">Print Ascending</button>
+
+    <button onclick="printDescending()">Print Descending</button>
+
+    <div id="output"></div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
