@@ -11,3 +11,4 @@ function factorial() {
     document.getElementById("output").innerHTML =
         "Factorial of " + num + " = " + res;
 }
+factorial()
