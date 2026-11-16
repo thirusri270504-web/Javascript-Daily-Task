@@ -1,8 +1,8 @@
-	function greater(){
-		a=10;
-		b=20;
-		c=30;
-		if(a>b && a>c){
+function greater(){
+	a=10;
+	b=20;
+	c=30;
+	if(a>b && a>c){
 		document.write("A is greater number");
 		}
 		else if(b>a && b>c){
@@ -10,6 +10,6 @@
 		}
 		else{
 		document.write("C is greater number");
-		}	
-		}
-		greater();
+	}	
+}
+greater();
